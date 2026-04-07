@@ -138,6 +138,15 @@ console.log("hello zain")
 
 
 
+let bn = 95
+
+if (bn % 2 == 0){
+    console.log("Zain.. You are a true GEM ")
+}
+
+
+
+
 
 
 
