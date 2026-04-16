@@ -70,25 +70,80 @@ console.log(Person.age)
 console.log("add hello")
 
 
+var x = "saim";
+var x = "zain";
+x = "loha paarh"
+
+console.log(x)
+
+
+let y = "Amna"
+y = "asghar"
+
+
+console.log(y)
+
+
+const h = "Saim";
+
+console.log(h)
+
+
+// const t = 50;
+// const u = 30;
+
+// if(t>=u){
+//     console.log(t,"is larger ")
+// }else{
+//     console.log(u,"is larger")
+// }
+
+
+// const age = 21;
+// const gender = "Male";
+
+// if(gender == "Male" && age <= 20){
+//     console.log("Yes you are an eligible")
+// }else{
+//     console.log("No You are not eligible")
+// }
 
 
 
 
+// const a1 = "Sain";
+
+// b = (a1 == "Zain"? "He is the Person" : "No, He is not that Person")
+// console.log(b)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+const day = 10;
+switch(day){
+    case 0:
+        console.log("Today is Friday")
+        break;
+    case 1:
+        console.log("Today is Saturday")
+        break;
+    case 2:
+        console.log("Today is Sunday")
+        break;
+    case 3:
+        console.log("Today is Monday")
+        break;
+    case 4:
+        console.log("Today is Tuesday")
+         break;
+    case 5:
+        console.log("Today is Wednesday")
+        break;
+    case 6:
+        console.log("Today is Thrusday")
+        break;
+    default:
+        console.log("Kindly give a valid week day")
+}
 
 
 
