@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multidimentional Array</title>
+    <script>
+        var arr = [
+        ["Zain", 28, "MSc", "Full Stack Engineer"],
+        ["Saim", 22, "BS_AI", "Full Stack Engineer"],
+        ["Ahmed Baber", 27, "BS_IT", "Full Stack Engineer"],
+        ["Amna Asghar", 23, "BS_IT", "Junior Full Stack Developer"]
+        ]
+        document.write(arr.length)
+        document.write("<table border = '1px' cellspacing= '0ox'>")
+        for(var i = 0; i<arr.length; i++){
+            document.write("<tr>")
+            for(var j = 0; j<arr.length; j++){
+                document.write("<td>" + arr[i][j] + "<td>")
+            }
+            document.write("</tr>")
+        }
+            document.write("</table>")
+        
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
