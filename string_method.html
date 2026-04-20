@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Method</title>
+    <script>
+        var str = "i am a full stack developer"
+
+        //var count = str.length
+
+
+        var count = str.toUpperCase()
+
+        document.write(count + "<br>")
+
+        var str = "i am a full stack developer"
+        var count = str.includes("full")
+
+
+        document.write(count + "<br>")
+
+        var str = "i am a full stack developer"
+        var count = str.startsWith("full")
+
+
+        document.write(count + "<br>")
+
+
+        var str = "i am a full stack developer"
+        var count = str.endsWith("developer")
+        document.write(count + "<br>")
+
+
+        var str = "i am a full stack developer"
+        var count = str.search("developer")
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.match(/stack/g);
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.indexOf("am");
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.lastIndexOf("mern");
+        document.write(count  + "<br>")
+
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.replace("mern", "mean");
+        document.write(count  + "<br>")
+
+         var str = "    i am a full stack developer and mern stack    "
+        var count = str.trim();
+        document.write(count  + "<br>")
+
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.charAt(10);
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.charCodeAt(10);
+        document.write(count  + "<br>")
+
+
+        var str = "i am a full stack developer and mern stack"
+        var str2 = "HI this is zain"
+        var str3 = "acha"
+        var count = str.concat(" "+str2, " " + str3)
+        document.write(count  + "<br>")
+
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.split(" ")
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.repeat(3)
+        document.write(count  + "<br>")
+
+
+        
+        var str = "i am a full stack developer and mern stack"
+        var count = str.slice(-2)
+        document.write(count  + "<br>")
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.substr(2, 5)
+        document.write(count  + "<br>")
+
+
+        var str = "i am a full stack developer and mern stack"
+        var count = str.substring(2, 5)
+        document.write(count  + "<br>")
+
+
+        var array = [1, 2, 3, 4, 5]
+        array.reverse()
+        document.write(array + "<br>")
+
+        var array = 50
+        array.toString()
+        document.write(array + 50 + "<br>")
+
+ 
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
