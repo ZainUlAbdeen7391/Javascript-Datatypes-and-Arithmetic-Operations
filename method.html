@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Methods</title>
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+
+        }
+        #test{
+            background-color: bisque;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+      
+
+    </style>
+    
+</head>
+<body>
+
+    <div id="test">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius impedit doloremque nisi odio iste repellendus deleniti autem suscipit molestias sapiente illo id voluptatum doloribus tenetur similique porro quidem ipsa quod ipsam veritatis, ex fugiat voluptas? Amet corrupti adipisci reiciendis fuga consequuntur sunt accusantium, alias excepturi exercitationem sapiente ab. Est.
+        </p>
+    </div>
+
+    <script>
+
+   
+        var target = document.getElementById("test");
+        var newText = "This is heading"
+        target.insertAdjacentText("beforebegin", newText)
+
+
+        
+
+
+    </script>
+
+    
+</body>
+</html>
