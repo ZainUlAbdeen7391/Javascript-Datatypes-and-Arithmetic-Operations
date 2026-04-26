@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript clientWidth & clientHeight</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #box{
+            background: pink;
+            width: 300px;
+            height: 300px;
+            border: 10px solid black;
+            padding: 10px;
+            overflow: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript: Offsetwidth & Offsetheight</h2>
+    <div id="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias consequatur quos quo sequi repellat eveniet fuga atque iusto omnis necessitatibus quidem quisquam quaerat impedit in libero aliquam quod debitis doloremque dolorum, nulla sapiente dicta perferendis! Eius, praesentium dicta enim laboriosam, nulla porro ut commodi molestias, accusantium quas quasi ipsam nisi! Esse eius perspiciatis, facere veritatis at itaque illo repellendus quisquam aliquid rem necessitatibus et iusto fugiat ratione ducimus quaerat quidem soluta ut numquam sit totam debitis reiciendis id illum. Alias cumque numquam itaque iste exercitationem. Rem ducimus impedit eos veniam laborum beatae, quia iste voluptates, magnam provident est. Possimus, sed praesentium aliquid quos aspernatur quidem repellat tempore veniam eum iusto, id alias saepe cupiditate magnam molestiae reprehenderit culpa illo maxime blanditiis. Sit sunt totam corporis nulla et, error aut natus laudantium cumque quidem corrupti autem impedit adipisci reprehenderit, hic placeat? Ex deserunt quibusdam odit ducimus, ad perspiciatis harum labore earum obcaecati voluptatem quia quam atque debitis optio libero aliquid rem facere vero in! Eaque non sed ipsam accusantium a sequi ea accusamus? Corporis facilis corrupti asperiores non optio eveniet reprehenderit sapiente, consectetur ab repellendus? A, et fuga corporis culpa obcaecati molestias, qui nulla porro fugiat sunt quibusdam, vitae quidem dolores deserunt? Atque reprehenderit earum blanditiis sint delectus cumque qui vero maiores repellat! Sequi, nihil at. Veritatis nobis laboriosam accusantium, recusandae deleniti eveniet nemo enim error voluptas et est nisi numquam voluptatibus impedit, nulla quibusdam soluta. Vel nam cumque temporibus similique autem sapiente iure dolore. Totam modi consequuntur eaque eius commodi amet exercitationem ad, eum ipsam nulla possimus consequatur temporibus debitis minima ea enim earum vitae dolorum dolores, laudantium pariatur veniam non veritatis. Mollitia neque ratione dolores impedit culpa, placeat tenetur saepe? Perferendis neque rem rerum saepe maxime quidem eius non voluptas nemo sed iusto harum, deserunt ducimus obcaecati error blanditiis sint nisi minus soluta eligendi tempora cumque ut? Esse nam delectus sapiente, nisi, consectetur eos autem quisquam officia molestiae adipisci minima qui quaerat laboriosam tempora voluptates unde facilis natus, vitae excepturi ipsam omnis similique sequi! Laudantium omnis vitae dolorem earum iste! Fuga, deleniti quia. Explicabo cum, vitae inventore eaque fuga voluptate debitis rem impedit sequi soluta iste cumque consequatur accusamus pariatur? Explicabo cupiditate a velit atque libero modi corrupti quasi eaque at molestiae sit vitae, quas provident sunt officia soluta harum nisi nihil, expedita quo ut. Laboriosam quasi tempora voluptatibus quisquam eaque! Fugiat nulla doloribus laboriosam, magni doloremque quia.
+    </div>
+    <script>
+        var target = document.querySelector("#box");
+        var clientWidth = target.clientWidth;
+        var clientHeight = target.clientHeight;
+
+        console.log('client_Width: ' + clientWidth);
+        console.log("clientHeight: " + clientHeight);
+
+
+
+    </script>
+</body>
+</html>

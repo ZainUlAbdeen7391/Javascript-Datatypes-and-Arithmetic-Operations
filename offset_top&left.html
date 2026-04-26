@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offset Top and Left</title>
+<style>
+    body{
+        margin: 0;
+    }
+    #box{
+        background-color: pink;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 300px;
+        Border: 5px solid black;
+    }
+</style>
+</head>
+<body>
+    <div id="box">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias harum reiciendis magni culpa corporis. Incidunt vero, natus id quis sit minima nemo omnis atque dolores nobis nostrum doloribus maiores eveniet velit illo, adipisci ipsa dicta temporibus eaque nisi, delectus itaque dolore! Ratione cupiditate, assumenda consequatur placeat quia provident eligendi id minima. Ut dolorem ex pariatur, eos ullam quisquam earum architecto, provident molestias dignissimos nihil eius et. Laudantium hic praesentium, vel rem tempora nisi distinctio sint sapiente quam pariatur consequatur culpa.
+        </p>
+    </div>
+
+    <script>
+        const box = document.getElementById("box");
+        console.log(box.offsetLeft);
+        console.log(box.offsetTop);
+
+    </script>
+
+    
+</body>
+</html>

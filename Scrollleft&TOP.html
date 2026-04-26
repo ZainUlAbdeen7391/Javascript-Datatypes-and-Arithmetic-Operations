@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll left and Top</title>
+    <style>
+        #box{
+            background: pink;
+            width: 300px;
+            height: 300px;
+            border: 5px solid #000;
+            overflow: auto;
+
+        }
+        #inner-box{
+            background: lightgrey;
+            width: 1000px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Javascript scrollTOP and scroolLeft</h2>
+    <div id="box">
+        <div id="inner-box">
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat quae at itaque quaerat, voluptas maiores dolorum cum libero odio inventore magni, soluta eum, modi impedit! Laboriosam illum explicabo doloremque totam, ipsa, quo consequuntur facilis assumenda autem itaque exercitationem iusto similique ducimus saepe eius ea, fuga expedita possimus. Assumenda nostrum similique dolores quis maiores? At recusandae, sint quam incidunt blanditiis, necessitatibus nulla labore maxime rem voluptas id cupiditate aperiam totam amet, voluptatem suscipit sed? Corrupti eaque culpa quis, in laborum, maxime ea debitis distinctio explicabo commodi quisquam deserunt voluptas ducimus voluptate error perferendis officia corporis quia voluptatibus harum eos nemo reprehenderit laboriosam vero? Saepe quae deleniti cumque, optio harum alias voluptates distinctio doloribus labore aut mollitia aliquam quas odio inventore facilis nam omnis culpa, ab quo sit porro maxime ullam natus. Magni, sed cum. Neque reiciendis dolore quis minus deleniti ad corporis esse tempora, quasi praesentium, ducimus explicabo, excepturi accusantium. Corporis quam consequuntur voluptas delectus accusantium maiores. Facere consequatur atque omnis ratione harum, similique error adipisci nam fuga saepe provident suscipit quaerat distinctio cupiditate quis est voluptates earum tempore aperiam ducimus quae consequuntur quam veritatis? Maxime esse cumque recusandae, saepe nihil quaerat debitis consequatur quam officia assumenda perferendis fugit harum. Quia sed autem a magnam quae cumque minima inventore ut consequuntur, quod consequatur dolor temporibus, nulla quibusdam possimus quisquam fuga est laboriosam animi deleniti asperiores optio laborum facilis! Ducimus natus officiis, rerum fuga illum blanditiis voluptatem aspernatur dicta, quibusdam eos dolorum dolor dolorem voluptas non molestiae doloribus magni fugiat iste assumenda autem harum aperiam molestias voluptate. Ipsa nulla eaque autem at minus repellendus officiis dolor eius reiciendis ipsam inventore vero sequi, et architecto, expedita earum in sapiente aliquid maiores unde repellat neque. Atque voluptatem aperiam quo, ipsum veritatis, voluptatibus perferendis unde, quos aut reiciendis veniam vel dolores voluptate corporis rerum nobis quod repellendus laborum tenetur? Laboriosam minus iure obcaecati dolorum quae voluptatibus et debitis aspernatur, eligendi enim magni maiores aperiam alias nostrum earum voluptate sapiente cupiditate iste. Eveniet, iure voluptates? Quod fugit, nemo nisi magni illum asperiores maiores dolore repudiandae. Laudantium iusto ex quasi officiis distinctio quisquam hic quibusdam explicabo magnam nulla. Veritatis, ipsum! Qui dolorum harum fugit dolor hic quas distinctio amet possimus corporis, accusamus delectus ut minima repellat ex voluptas quae. Eos alias commodi tempora omnis dicta, aliquam facere voluptates dolor iure incidunt optio atque illum quas odit facilis rerum suscipit aperiam quidem sequi tenetur nisi aut ad perferendis? Ducimus commodi corrupti laudantium vero aliquam reiciendis excepturi corporis? Laboriosam doloremque molestiae voluptates voluptas nulla incidunt amet similique consequuntur ipsum atque ratione, itaque iusto. Corrupti, minus accusantium inventore itaque eos laborum voluptatum ut accusamus quaerat, dolorum sunt perspiciatis atque. Commodi possimus tempora aut, fugit in, provident rerum quod doloremque recusandae harum quidem dolorem. Velit deserunt nemo delectus blanditiis rerum enim nobis tempora ipsa vitae facere eaque, doloribus quod? Pariatur vero ullam illo earum distinctio voluptatem dolor in, veniam, eos ad iste. Ad, ullam quis quaerat laudantium inventore praesentium? Illo nesciunt minima expedita nihil, repellat cum impedit doloribus rem atque?</p>
+    </div>
+
+
+
+    <script>
+        const target=document.querySelector("#box");
+        target.addEventListener('scroll', ()=>{
+            console.clear();
+            console.log("scrollTop : " + target.scrollTop);
+            console.log("scrollLeft : " + target.scrollLeft);
+        });
+    </script>
+    
+</body>
+</html>
