@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keys</title>
+    <style>
+        #mytextbox{
+            width: 100px;
+            height: 20px;
+            border: 5px solid black;
+            background-color: pink;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript: CTRL, Shift, Meta and Alt Keys</h2>
+    <input type="text" id="mytextbox">
+    <script>
+        var target = document.querySelector("#mytextbox");
+        target.addEventListener('keydown', function(e)
+
+        {   
+            console.clear();
+            var key;
+            switch(true){
+                case e.metaKey:
+                key = "Meta Key";
+                break;
+                case e.altKey:
+                key = "Alt Key";
+                break;
+                case e.ctrlKey:
+                key = "CTRL Key";
+                break;
+                case e.shiftKey:
+                key = "Shift Key";
+                break;
+                default:
+                key = "No key Pressed:"
+                break;
+            }
+            console.log(key)
+          
+        });
+    </script>
+    
+</body>
+</html>
