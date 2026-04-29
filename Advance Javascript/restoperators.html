@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Operators</title>
+</head>
+<body>
+    <script>
+        function sum(name,course, ...args){
+            document.write(`Hello ${name} ${course} : `);
+            let sum = 0;
+            for (let i in args){
+                sum += args[i];
+                
+            }
+            document.write(sum + "<br>")
+        }
+
+        sum("yahoo baba"," is a software engineer",20,20,40);
+        sum("Zain Ul Abdeen"," is a AI Engineer",55,67,76);
+        sum("Saim Hussain", "ia a backend developer", 45,32,56,89,76);
+    </script>
+    
+</body>
+</html>

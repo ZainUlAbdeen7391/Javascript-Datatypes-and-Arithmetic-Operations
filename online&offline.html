@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Events</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #myinput{
+            font-size: 21px;
+            padding: 15px;
+            width: 70%;
+        }
+
+        #box{
+           background-color: lightgoldenrodyellow;
+           width: 400px; 
+           height: 250px;
+           padding: 15px;
+           border: 1px solid #000;
+        }
+    </style>
+</head>
+<body onoffline="offlineFunction()">
+    <div id="box"></div>
+ 
+    <script>
+        var target = document.querySelector("#box");
+
+
+        function offlineFunction(){
+            target.innerHTML = "you are offline.";
+            target.style.backgroundColor = "pink";
+        }
+
+            window.addEventListener("online", function(){
+            target.innerHTML = "You are Online";
+            target.style.backgroundColor = "lightgreen";   
+        });
+
+        if (navigator.onLine){
+            console.log("Online");
+        }else{
+            console.log("offline")
+        }
+    </script>
+</body>
+</html>
