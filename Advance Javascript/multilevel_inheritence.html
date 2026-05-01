@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Level Inheritence</title>
+    <script>
+        class employee{
+            constructor(name, age, salary){
+                this.empname = name;
+                this.empage = age;
+                this.empsalary = salary;
+                
+            }
+            info(){
+                document.write(`<h3>Employee Class</h3>
+                Name: ${this.empname}<br>
+                Age: ${this.empage}<br>
+                Salary: ${this.empsalary}`)
+            }
+        }
+        class manager extends employee{
+            info(){
+            let ta = 2000;
+            let pa = 300;
+            let totalsalary = this.empsalary + ta + pa;
+                document.write(`<h3>Manager Class</h3>
+                Name: ${this.empname}<br>
+                Age: ${this.empage}<br>
+                Salary: ${totalsalary}`);
+            }
+        }
+
+        class test extends manager{
+
+        }
+        let a = new test("Zain Ul Abdeen", 28, 35000);
+        //let b = new employee("Ram Kumar", 22, 25000)
+        a.info();
+        //b.info();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

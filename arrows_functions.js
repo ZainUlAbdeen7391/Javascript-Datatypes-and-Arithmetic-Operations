@@ -45,10 +45,13 @@ add1(3, 4, x => console.log("Sum:", x));  // One line! 🚀
 
 
 
+var name1 = "Saim chutia";
 
+function nameResult(name){
+     this.name1 = name;
+    console.log(this.name1)
+}
 
-
-
-
+nameResult("Saim gandu")
 
 

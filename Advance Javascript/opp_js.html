@@ -6,18 +6,23 @@
     <title>OPP JS- Advance</title>
     <script>
         class student{
-            constructor(){
-                console.log("constructor Function");
+            constructor(name, age){
+                 this.studentname = name;
+                 this.studentage = age;
+                 
+                console.log("Constructor Function");
+            }
+            home(){
+                console.log(`Hello ${this.studentname}, Your age is : ${this.studentage}`);
             }
         }
-        let a = new student;
-        let b = new student;
+        let a = new student("Zain Ul Abdeen", 28);
+        let b= new student("Saim Hussain", 22);
+        a.home();
+        b.home();
 
-    </script>
+    </script>    
 </head>
 <body>
-
-
-    
-</body>
+</body>  
 </html>
